@@ -1,0 +1,29 @@
+{% extends 'base.html' %} {% block title %} Weather App {% endblock title %} 
+
+{% block content %}
+<form action="" method="post">
+    {% csrf_token %}
+    <div class="container">
+        <div class="mb-3 mt-4">            
+            <input type="text" class="form-control" placeholder="Enter the place name" id="text" name="place"> <br>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <hr>
+
+        <div>
+            <p>The localtime in {{place}} is: <b>{{times}}</b> <br>
+                The temperature in {{place}} is: <b>{{temps_c}} ℃ / {{temps_f}} ℉ </b> 
+            </p>
+        </div>   
+
+{% if messages %}
+    {% for message in messages %}
+    {{ message }}
+    {% endfor %}
+
+{% endif %}
+
+    </div>
+</form>
+{% endblock content %}
