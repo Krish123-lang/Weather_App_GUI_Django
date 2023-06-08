@@ -33,7 +33,7 @@ ii) env\Scripts\activate
 
 6. Copy the url(127.0.0.1:8000) and open it into your browser.
 7. You must see this screen
+![weather_app_django (2)](https://github.com/Krish123-lang/Weather_App_GUI_Django/assets/56486342/6c48dd54-7732-400d-b314-efb5cd337b4f)
 
-![weather_app_django](https://github.com/Krish123-lang/Weather_App_GUI_Django/assets/56486342/ff26a4e6-6771-4219-8018-c7a62f2d729c)
 
 THANK YOU 🙏
