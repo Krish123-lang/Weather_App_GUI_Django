@@ -2,7 +2,7 @@
 
 # What this project does?
 
-This python program uses [WeatherAPI](https://www.weatherapi.com/) to get the localtime and current temperature of the user's given location.
+This python program utilizes [WeatherAPI](https://www.weatherapi.com/) to retrieve data from Weather API. The data that are fetched by this project are: User's Localtime, temperature of the user given place, Longitude, Latitude, Condition, Wind Speed (milesperhour/kilometresperhour) and Humidity.
 
 ## Installation
 
